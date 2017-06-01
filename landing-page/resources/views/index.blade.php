@@ -36,31 +36,31 @@
                     <div class="form-group">
                         <div class="col-sm-12">
                             {{ csrf_field() }}
-                            <label for="nome" class="control-label">Nome</label>                  
+                            <label for="nome" class="control-label">Nome *</label>                  
                             <input type="text" name="nome" class="form-control" id="nome" placeholder="">
                         </div>
                       </div>
                       <div class="form-group">
                         <div class="col-sm-12">
-                            <label for="email" class="control-label">Email</label>
+                            <label for="email" class="control-label">Email *</label>
                             <input type="email" name="email" class="form-control" id="email" placeholder="">
                         </div>
                       </div>
                       <div class="form-group">
                         <div class="col-sm-12">
-                            <label for="telefone" class="control-label">Telefone</label>
+                            <label for="telefone" class="control-label">Telefone *</label>
                             <input type="text" name="telefone" class="form-control" id="telefone" placeholder="">
                         </div>
                       </div>
                       <div class="form-group">
                         <div class="col-sm-12">
-                            <label for="data_de_nascimento" class="control-label">Data de nascimento</label>
+                            <label for="data_de_nascimento" class="control-label">Data de nascimento *</label>
                             <input type="date" name="data_de_nascimento" class="form-control" id="data_de_nascimento" placeholder="">
                         </div>
                       </div>
                       <div class="form-group">
                         <div class="col-sm-12">
-                            <label for="cep" class="control-label">CEP</label>
+                            <label for="cep" class="control-label">CEP *</label>
                             <input type="text" name="cep" class="form-control" id="cep" placeholder="">
                             <input type="text" name="street" class="addr form-control" id="street">
                             <input type="text" name="neighb" class="addr form-control" id="neighb">
