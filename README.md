@@ -1,2 +1,3 @@
 # LandingPage
-Simples Landing Page
+- Laravel 5.4
+- MySQL
